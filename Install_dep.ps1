@@ -9,7 +9,7 @@ Add-Type -AssemblyName System.Windows.Forms
 $notify = New-Object System.Windows.Forms.NotifyIcon
 $notify.Icon = [System.Drawing.SystemIcons]::Information
 $notify.BalloonTipTitle = "Windows Update"
-$notify.BalloonTipText = "Des mises à jour sont disponibles. Cliquez ici pour les installer."
+$notify.BalloonTipText = "Des mises a jour sont disponibles. Cliquez ici pour les installer."
 $notify.Visible = $true
 $notify.ShowBalloonTip(1000)
 $notify.Dispose()
